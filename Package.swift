@@ -39,7 +39,6 @@ let package = Package(
     targets: [
         .target(name: "SwiftJWT", dependencies: [
             "LoggerAPI",
-            "KituraContracts",
             "CryptorRSA",
             "Cryptor",
             "CryptorECC",
